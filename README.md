@@ -1,65 +1,59 @@
-# Web Development Project 2 - Web Development Quiz Cards
+# Web Development Project 3 - Web Development Quiz Cards
 
 Submitted by: **Hina Sadiq**
 
-This web app: **An interactive flashcard application that helps users learn basic web development concepts. Users can click a flashcard to reveal the answer and use a button to display a random new flashcard.**
+This web app: **An interactive flashcard application that helps users study basic web development concepts. Users can flip cards to reveal answers, enter guesses, receive feedback on their responses, and navigate through a deck of flashcards using previous and next controls.**
 
-Time spent: **4 hours** spent in total
+Time spent: **5 hours** spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
- [x] **The app displays the title of the card set, a short description, and the total number of cards**
+  [x] **The user can enter their guess into an input box before seeing the flipside of the card**
+  [x] Application features a clearly labeled input box with a submit button where users can type in a guess
+  [x] Clicking on the submit button with an incorrect answer shows visual feedback that it is wrong
+  [x] Clicking on the submit button with a correct answer shows visual feedback that it is correct
 
-   [x] Title of card set is displayed
-   [x] A short description of the card set is displayed
-   [x] A list of card pairs is created
-   [x] The total number of cards in the set is displayed
-   [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
-
- [x] **A single card at a time is displayed**
-
-   [x] Only one half of the information pair is displayed at a time
-
- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-
-   [x] Clicking on a card flips it over, showing the back with corresponding information
-   [x] Clicking on a flipped card again flips it back, showing the front
-
- [x] **Clicking on the next button displays a random new card**
+  [x] **The user can navigate through an ordered list of cards**
+  [x] A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  [x] A previous/back button displayed on the card returns to the previous card in a set sequence when clicked
+  [x] Both the next and back buttons have a visual indication when the user is at the beginning or end of the list
 
 ## Optional Features
 
 The following **optional** features are implemented:
 
- [ ] Cards contain images in addition to or in place of text
- [ ] Cards have different visual styles such as color based on their category
+  [x] A user’s answer may be counted as correct even when it is slightly different from the target answer
+  [x] Answers ignore uppercase/lowercase discrepancies
 
 ## Additional Features
 
 The following **additional** features are implemented:
 
- [x] Custom pink, lavender, and sage green theme
- [x] Animated flashcard flip effect
- [x] Glassmorphism card design with shadows
- [x] Responsive layout for smaller screens
- [x] Randomized flashcard selection without immediately repeating the current card
+  [x] Animated flashcard flip effect
+  [x] Custom pastel purple and sage green design
+  [x] Glassmorphism flashcard styling
+  [x] Gradient flashcard borders
+  [x] Responsive design for smaller screens
+  [x] Custom typography using Parisienne and Frank Ruhl Libre fonts
+  [x] Background image and themed UI
+  [x] Arrow-based navigation controls
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='demo.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+<img src="Codepath3.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
 
-GIF created with EZGIF
+GIF created with Kap.
 
 ## Notes
 
-One challenge I encountered was creating the card flip animation while maintaining a responsive layout. Another challenge was styling the application with a custom aesthetic theme and ensuring the flashcards remained readable against the background image.
+One challenge was implementing the flashcard flip animation while maintaining the custom design and responsiveness. Another challenge was styling the flashcards, navigation controls, and input elements so that they matched the overall theme while remaining easy to use.
 
 ## License
 
-Copyright 2026 Hina Sadiq
+    Copyright 2026 Hina Sadiq
 
-Licensed under the Apache License, Version 2.0.
+    Licensed under the Apache License, Version 2.0 (the "License");
